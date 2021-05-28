@@ -1,0 +1,38 @@
+---
+title: "plantas de oxidacion de acido nitrico y amoniaco 1950160"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## planta de oxidacion
+
+en este trabajo podemos observar los siquientes datos , que posee un  un marco de datos con 21 observaciones sobre 4 variables. Las variables están representadas de la siguiente forma:  Air Flow representa la tasa de funcionamiento de la planta. Water Temp es la temperatura del agua de refrigeración que circula a través de bobinas en la torre de absorción.
+```{r}
+data("stackloss")
+force(stack.loss)
+force(stack.x)
+force(stackloss)
+stackloss
+```
+
+
+## Including Code
+
+You can include R code in the document as follows:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
